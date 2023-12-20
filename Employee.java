@@ -73,7 +73,7 @@ toString() : Çalışana ait bilgileri ekrana bastıracaktır.
 
     // toString() : Çalışana ait bilgileri ekrana bastıracaktır.
 
-    public String printInfo(){
+    public String toString(){
 
         double totalSalary = salary  + bonus() + salaryRaise() - calcTax();
             String printInfo =  "Name: " + name + "\n" +
